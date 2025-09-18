@@ -2,9 +2,9 @@ public class Player {
 
     private int id;
     private String name;
-    private int strength;
+    private Integer strength;
 
-    public Player(int id, String name, int strength) {
+    public Player(int id, String name, Integer strength) {
         this.id = id;
         this.name = name;
         this.strength = strength;
@@ -15,7 +15,7 @@ public class Player {
         return name;
     }
 
-    public int getStrength() {
+    public Integer getStrength() {
         return strength;
     }
 }
